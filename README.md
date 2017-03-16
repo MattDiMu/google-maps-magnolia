@@ -1,5 +1,6 @@
 # google-maps-magnolia
 [![Code Climate](https://codeclimate.com/github/MattDiMu/google-maps-magnolia/badges/gpa.svg)](https://codeclimate.com/github/MattDiMu/google-maps-magnolia)
+[![Issue Count](https://codeclimate.com/github/MattDiMu/google-maps-magnolia/badges/issue_count.svg)](https://codeclimate.com/github/MattDiMu/google-maps-magnolia)
 
 Magnolia Light Module for providing a responsive google maps integration.
 
