@@ -10,6 +10,16 @@ form:
         - name: location
           class: info.magnolia.ui.form.field.definition.TextFieldDefinition
           required: true
+        - name: maptype
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          sortOptions: false
+          required: true
+          options:
+            - name: roadmap
+              value: roadmap
+              selected: true
+            - name: satellite
+              value: satellite
         - name: sizeType
           class: info.magnolia.ui.form.field.definition.SwitchableFieldDefinition
           required: true
@@ -39,3 +49,177 @@ form:
               class: info.magnolia.ui.form.field.definition.TextFieldDefinition
               defaultValue: 500
               type: String
+        - name: zoom
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          sortOptions: false
+          required: true
+          options:
+            - name: autodetect
+              value: ""
+              selected: true
+            - name: z_0
+              value: 0
+            - name: z_1
+              value: 1
+            - name: z_2
+              value: 2
+            - name: z_3
+              value: 3
+            - name: z_4
+              value: 4
+            - name: z_5
+              value: 5
+            - name: z_6
+              value: 6
+            - name: z_7
+              value: 7
+            - name: z_8
+              value: 8
+            - name: z_9
+              value: 9
+            - name: z_10
+              value: 10
+            - name: z_11
+              value: 11
+            - name: z_12
+              value: 12
+            - name: z_13
+              value: 13
+            - name: z_14
+              value: 14
+            - name: z_15
+              value: 15
+            - name: z_16
+              value: 16
+            - name: z_17
+              value: 17
+            - name: z_18
+              value: 18
+            - name: z_19
+              value: 19
+            - name: z_20
+              value: 20
+            - name: z_21
+              value: 21
+        - name: language
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          sortOptions: false
+          required: true
+          options:
+            - name: autodetect
+              value: ""
+              selected: true
+            - name: ar
+              value: ar
+            - name: bg
+              value: bg
+            - name: bn
+              value: bn
+            - name: ca
+              value: ca
+            - name: cs
+              value: cs
+            - name: da
+              value: da
+            - name: de
+              value: de
+            - name: el
+              value: el
+            - name: en
+              value: en
+            - name: en-AU
+              value: en-AU
+            - name: en-GB
+              value: en-GB
+            - name: es
+              value: es
+            - name: eu
+              value: eu
+            - name: fa
+              value: Farsi
+            - name: fi
+              value: fi
+            - name: fil
+              value: fil
+            - name: fr
+              value: fr
+            - name: gl
+              value: gl
+            - name: gu
+              value: gu
+            - name: hi
+              value: hi
+            - name: hr
+              value: hr
+            - name: hu
+              value: hu
+            - name: id
+              value: id
+            - name: it
+              value: it
+            - name: iw
+              value: iw
+            - name: ja
+              value: ja
+            - name: kn
+              value: kn
+            - name: ko
+              value: ko
+            - name: lt
+              value: lt
+            - name: lv
+              value: lv
+            - name: ml
+              value: ml
+            - name: mr
+              value: mr
+            - name: nl
+              value: nl
+            - name: "no"
+              value: "no"
+            - name: pl
+              value: pl
+            - name: pt
+              value: pt
+            - name: pt-BR
+              value: pt-BR
+            - name: pt-PT
+              value: pt-PT
+            - name: ro
+              value: ro
+            - name: ru
+              value: ru
+            - name: sk
+              value: sk
+            - name: sl
+              value: sl
+            - name: sr
+              value: sr
+            - name: sv
+              value: sv
+            - name: ta
+              value: ta
+            - name: te
+              value: te
+            - name: th
+              value: th
+            - name: tl
+              value: tl
+            - name: tr
+              value: tr
+            - name: uk
+              value: uk
+            - name: vi
+              value: vi
+            - name: zh-CN
+              value: zh-CN
+            - name: zh-TW
+              value: zh-TW
+
+
+
+
+
+
+
+
