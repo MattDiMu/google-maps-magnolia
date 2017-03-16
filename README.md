@@ -29,8 +29,6 @@ availableComponents:
 3. Retrieve a (free) Google Maps API Key https://developers.google.com/maps/documentation/embed/guide?hl=en#api_key and set it as parameter `google-maps-magnolia-api-key` in the site definition like this:
 ![site definitions parameter config](screenshots/site-definition-parameters.png)
 
-Alternatively you may set the API Key as parameter in the Component Definition (takes precedence over site definition parameter)
-
 4. (Optionally) customize your component by using your own templateScript. You can either do this by decorating the component or definining your own component, which then uses the `google-maps` dialog. The mentioned dialog may be decorated as well.
 
 ```yaml
