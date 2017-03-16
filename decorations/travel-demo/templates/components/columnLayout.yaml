@@ -1,0 +1,5 @@
+areas:
+  column1:
+    availableComponents:
+        google-maps-magnolia:
+            id: google-maps-magnolia:components/google-maps

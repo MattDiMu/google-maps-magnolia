@@ -1,0 +1,41 @@
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - name: location
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          required: true
+        - name: sizeType
+          class: info.magnolia.ui.form.field.definition.SwitchableFieldDefinition
+          required: true
+          options:
+            - name: responsiveHeight
+              selected: true
+              value: responsiveHeight
+            - name: fixedHeight
+              value: fixedHeight
+          fields:
+            - name: responsiveHeight
+              class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+              sortOptions: false
+              options:
+                - name: ratio2to1
+                  value: "50%"
+                - name: ratio16to9
+                  value: "56.25%"
+                  selected: true
+                - name: ratio3to2
+                  value: "66.66666%"
+                - name: ratio4to3
+                  value: "75%"
+                - name: rato1to1
+                  value: "100%"
+            - name: fixedHeight
+              class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+              defaultValue: 500
+              type: String

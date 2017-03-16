@@ -1,0 +1,27 @@
+{
+  "name": "google-maps-magnolia",
+  "version": "1.0.0",
+  "description": "Magnolia Light Module for providing a responsive google maps integration.",
+  "main": "\"\"",
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattDiMu/google-maps-magnolia.git"
+  },
+  "keywords": [
+    "magnolia-light-module",
+    "magnolia",
+    "cms",
+    "google",
+    "maps",
+    "iframe"
+  ],
+  "author": "Matthias Müller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattDiMu/google-maps-magnolia/issues"
+  },
+  "homepage": "https://github.com/MattDiMu/google-maps-magnolia#readme"
+}

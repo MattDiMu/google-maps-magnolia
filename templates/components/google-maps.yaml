@@ -1,0 +1,3 @@
+renderType: freemarker
+templateScript: /google-maps-magnolia/templates/components/google-maps.ftl
+dialog: google-maps-magnolia:components/google-maps
