@@ -104,6 +104,9 @@ form:
         - name: language
           class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
           sortOptions: false
+          filteringMode: startswith
+          textInputAllowed: true
+          pageLength: 999
           required: true
           options:
             - name: autodetect
