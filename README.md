@@ -47,6 +47,16 @@ templateScript: /path/to/my/custom/template/script.ftl
 </div>
 ```
 
+
+## Features
+Offers an editor-friendly way to integrate Google Maps into Magnolia Sites:
+* Name and Address Search
+* Map Type (Roadmap vs Satellite)
+* Custom Zoom Level
+* Interface Language (with all language codes currently supported by google)
+* Offers a responsive Mode, where Google Maps retains a predefined aspect ratio, no matter the screen size.
+
+
 ## Information on Magnolia CMS
 This directory is a Magnolia 'light module'. See https://docs.magnolia-cms.com for further details.
 
