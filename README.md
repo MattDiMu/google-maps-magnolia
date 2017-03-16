@@ -26,7 +26,12 @@ availableComponents:
 
 **Hint**: If you're having the travel-demo (magnolia sample site), this component will automatically be available in the "Standard" Templates (see screenshots above).
 
-3. (Optionally) customize your component by using your own templateScript. You can either do this by decorating the component or definining your own component, which then uses the `google-maps` dialog. The mentioned dialog may be decorated as well of course.
+3. Retrieve a (free) Google Maps API Key https://developers.google.com/maps/documentation/embed/guide?hl=en#api_key and set it as parameter `google-maps-magnolia-api-key` in the site definition like this:
+![site definitions parameter config](screenshots/site-definition-parameters.png)
+
+Alternatively you may set the API Key as parameter in the Component Definition (takes precedence over site definition parameter)
+
+4. (Optionally) customize your component by using your own templateScript. You can either do this by decorating the component or definining your own component, which then uses the `google-maps` dialog. The mentioned dialog may be decorated as well.
 
 ```yaml
 dialog: google-maps-magnolia:components/google-maps
@@ -51,7 +56,7 @@ This directory is a Magnolia 'light module'. See https://docs.magnolia-cms.com f
 ## License
 The MIT License (MIT)
 
-Copyright 2016 Matthias Müller <MattDiMu@users.noreply.github.com>
+Copyright 2017 Matthias Müller
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
