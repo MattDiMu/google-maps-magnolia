@@ -1,6 +1,6 @@
 {
   "name": "google-maps-magnolia",
-  "version": "1.0.0",
+  "version": "1.0.1-1",
   "description": "Magnolia Light Module for providing a responsive google maps integration.",
   "main": "\"\"",
   "scripts": {
