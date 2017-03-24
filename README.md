@@ -12,19 +12,17 @@ Magnolia Light Module for providing a responsive google maps integration.
 ## Usage
 
 1. install the light module using a package manager like npm or yarn
-
-```sh
-npm install google-maps-magnolia
-```
+   ```sh
+   npm install google-maps-magnolia
+   ```
 
 2. Enable the `google-maps`-component in you desired areas like this:
-```yaml
-availableComponents:
-    google-maps-magnolia:
-        id: google-maps-magnolia:components/google-maps
-```
-
-**Hint**: If you're having the travel-demo (magnolia sample site), this component will automatically be available in the "Standard" Templates (see screenshots above).
+   ```yaml
+   availableComponents:
+       google-maps-magnolia:
+           id: google-maps-magnolia:components/google-maps
+   ```
+   **Hint**: If you're having the travel-demo (magnolia sample site), this component will automatically be available in the "Standard" Templates (see screenshots above).
 
 3. Retrieve a (free) Google Maps API Key https://developers.google.com/maps/documentation/embed/guide?hl=en#api_key and set it as parameter `google-maps-magnolia-api-key` in the site definition like this:
 ![site definitions parameter config](screenshots/site-definition-parameters.png)
