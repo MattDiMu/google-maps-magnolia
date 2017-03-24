@@ -29,22 +29,21 @@ Magnolia Light Module for providing a responsive google maps integration.
 
 4. (Optionally) customize your component by using your own templateScript. You can either do this by decorating the component or definining your own component, which then uses the `google-maps` dialog. The mentioned dialog may be decorated as well.
 
-```yaml
-dialog: google-maps-magnolia:components/google-maps
-templateScript: /path/to/my/custom/template/script.ftl
-```
+   ```yaml
+   dialog: google-maps-magnolia:components/google-maps
+   templateScript: /path/to/my/custom/template/script.ftl
+   ```
 
-**Hint**: You should try to stay *upgradeable* by including `utils.ftl` in your own templateScript and using the provided macros and functions. Afterwards a simple package update like `npm update google-maps-magnolia` will give you the latest bugfixes and enhancements for this light module. For the same reason you probably shouldn't write your own dialog, but decorate the existing one with your custom fields. Here is an example, how you could extend/wrap the `google-maps` component in a custom component:
+   **Hint**: You should try to stay *upgradeable* by including `utils.ftl` in your own templateScript and using the provided macros and functions. Afterwards a simple package update like `npm update google-maps-magnolia` will give you the latest bugfixes and enhancements for this light module. For the same reason you probably shouldn't write your own dialog, but decorate the existing one with your custom fields. Here is an example, how you could extend/wrap the `google-maps` component in a custom component:
 
-```ftl
-[#include "/google-maps-magnolia/templates/inc/utils.ftl" /]
-
-<div class="my-custom-wrapper">
-<h2>Google Maps Title</h2>
-    [@renderGoogleMapsComponent content=content /]
-</div>
-```
-
+   ```ftl
+   [#include "/google-maps-magnolia/templates/inc/utils.ftl" /]
+   
+   <div class="my-custom-wrapper">
+   <h2>Google Maps Title</h2>
+       [@renderGoogleMapsComponent content=content /]
+   </div>
+   ```
 
 ## Features
 Offers an editor-friendly way to integrate Google Maps into Magnolia Sites:
