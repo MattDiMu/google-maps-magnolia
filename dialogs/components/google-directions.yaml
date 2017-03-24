@@ -7,9 +7,14 @@ form:
   tabs:
     - name: tabMain
       fields:
-        - name: location
+        - name: origin
           class: info.magnolia.ui.form.field.definition.TextFieldDefinition
           required: true
+        - name: destination
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          required: true
+        - !include /google-maps-magnolia/dialogs/controls/mode.yaml
+        - !include /google-maps-magnolia/dialogs/controls/avoid.yaml
         - !include /google-maps-magnolia/dialogs/controls/mapType.yaml
         - !include /google-maps-magnolia/dialogs/controls/sizeType.yaml
         - !include /google-maps-magnolia/dialogs/controls/zoom.yaml

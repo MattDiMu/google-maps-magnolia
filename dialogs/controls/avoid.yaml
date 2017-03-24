@@ -1,0 +1,11 @@
+name: avoid
+class: info.magnolia.ui.form.field.definition.OptionGroupFieldDefinition
+multiselect: true
+type: String
+options:
+  - name: tolls
+    value: tolls
+  - name: ferries
+    value: ferries
+  - name: highways
+    value: highways

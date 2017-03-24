@@ -1,0 +1,18 @@
+name: mode
+class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+sortOptions: false
+required: true
+options:
+  - name: autodetect
+    value: ""
+    selected: true
+  - name: walking
+    value: walking
+  - name: bicycling
+    value: bicycling
+  - name: driving
+    value: driving
+  - name: transit
+    value: transit
+  - name: flying
+    value: flying

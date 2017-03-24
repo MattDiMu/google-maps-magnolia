@@ -1,0 +1,117 @@
+name: language
+class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+sortOptions: false
+filteringMode: startswith
+textInputAllowed: true
+pageLength: 999
+required: true
+options:
+  - name: autodetect
+    value: ""
+    selected: true
+  - name: ar
+    value: ar
+  - name: bg
+    value: bg
+  - name: bn
+    value: bn
+  - name: ca
+    value: ca
+  - name: cs
+    value: cs
+  - name: da
+    value: da
+  - name: de
+    value: de
+  - name: el
+    value: el
+  - name: en
+    value: en
+  - name: en-AU
+    value: en-AU
+  - name: en-GB
+    value: en-GB
+  - name: es
+    value: es
+  - name: eu
+    value: eu
+  - name: fa
+    value: Farsi
+  - name: fi
+    value: fi
+  - name: fil
+    value: fil
+  - name: fr
+    value: fr
+  - name: gl
+    value: gl
+  - name: gu
+    value: gu
+  - name: hi
+    value: hi
+  - name: hr
+    value: hr
+  - name: hu
+    value: hu
+  - name: id
+    value: id
+  - name: it
+    value: it
+  - name: iw
+    value: iw
+  - name: ja
+    value: ja
+  - name: kn
+    value: kn
+  - name: ko
+    value: ko
+  - name: lt
+    value: lt
+  - name: lv
+    value: lv
+  - name: ml
+    value: ml
+  - name: mr
+    value: mr
+  - name: nl
+    value: nl
+  - name: "no"
+    value: "no"
+  - name: pl
+    value: pl
+  - name: pt
+    value: pt
+  - name: pt-BR
+    value: pt-BR
+  - name: pt-PT
+    value: pt-PT
+  - name: ro
+    value: ro
+  - name: ru
+    value: ru
+  - name: sk
+    value: sk
+  - name: sl
+    value: sl
+  - name: sr
+    value: sr
+  - name: sv
+    value: sv
+  - name: ta
+    value: ta
+  - name: te
+    value: te
+  - name: th
+    value: th
+  - name: tl
+    value: tl
+  - name: tr
+    value: tr
+  - name: uk
+    value: uk
+  - name: vi
+    value: vi
+  - name: zh-CN
+    value: zh-CN
+  - name: zh-TW
+    value: zh-TW

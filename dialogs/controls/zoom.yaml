@@ -1,0 +1,52 @@
+name: zoom
+class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+sortOptions: false
+required: true
+options:
+  - name: autodetect
+    value: ""
+    selected: true
+  - name: z_0
+    value: 0
+  - name: z_1
+    value: 1
+  - name: z_2
+    value: 2
+  - name: z_3
+    value: 3
+  - name: z_4
+    value: 4
+  - name: z_5
+    value: 5
+  - name: z_6
+    value: 6
+  - name: z_7
+    value: 7
+  - name: z_8
+    value: 8
+  - name: z_9
+    value: 9
+  - name: z_10
+    value: 10
+  - name: z_11
+    value: 11
+  - name: z_12
+    value: 12
+  - name: z_13
+    value: 13
+  - name: z_14
+    value: 14
+  - name: z_15
+    value: 15
+  - name: z_16
+    value: 16
+  - name: z_17
+    value: 17
+  - name: z_18
+    value: 18
+  - name: z_19
+    value: 19
+  - name: z_20
+    value: 20
+  - name: z_21
+    value: 21

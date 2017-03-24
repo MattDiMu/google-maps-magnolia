@@ -1,0 +1,3 @@
+renderType: freemarker
+templateScript: /google-maps-magnolia/templates/components/google-directions.ftl
+dialog: google-maps-magnolia:components/google-directions

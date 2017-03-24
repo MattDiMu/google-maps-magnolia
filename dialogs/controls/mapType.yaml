@@ -1,0 +1,10 @@
+name: mapType
+class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+sortOptions: false
+required: true
+options:
+  - name: roadmap
+    value: roadmap
+    selected: true
+  - name: satellite
+    value: satellite

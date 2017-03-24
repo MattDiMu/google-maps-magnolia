@@ -1,5 +1,4 @@
 # google-maps-magnolia
-[![Code Climate](https://codeclimate.com/github/MattDiMu/google-maps-magnolia/badges/gpa.svg)](https://codeclimate.com/github/MattDiMu/google-maps-magnolia)
 [![Issue Count](https://codeclimate.com/github/MattDiMu/google-maps-magnolia/badges/issue_count.svg)](https://codeclimate.com/github/MattDiMu/google-maps-magnolia)
 
 Magnolia Light Module for providing a responsive google maps integration.
@@ -15,7 +14,7 @@ Magnolia Light Module for providing a responsive google maps integration.
    ```sh
    npm install google-maps-magnolia
    ```
-
+   
 2. Enable the `google-maps`-component in you desired areas like this:
    ```yaml
    availableComponents:
@@ -23,12 +22,13 @@ Magnolia Light Module for providing a responsive google maps integration.
            id: google-maps-magnolia:components/google-maps
    ```
    **Hint**: If you're having the travel-demo (magnolia sample site), this component will automatically be available in the "Standard" Templates (see screenshots above).
-
+   
 3. Retrieve a (free) Google Maps API Key https://developers.google.com/maps/documentation/embed/guide?hl=en#api_key and set it as parameter `google-maps-magnolia-api-key` in the site definition like this:
-![site definitions parameter config](screenshots/site-definition-parameters.png)
 
+   ![site definitions parameter config](screenshots/site-definition-parameters.png)
+   
 4. (Optionally) customize your component by using your own templateScript. You can either do this by decorating the component or definining your own component, which then uses the `google-maps` dialog. The mentioned dialog may be decorated as well.
-
+   
    ```yaml
    dialog: google-maps-magnolia:components/google-maps
    templateScript: /path/to/my/custom/template/script.ftl
@@ -85,4 +85,4 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [Matthias Müller](https://github.com/MattDiMu)
 
 
-PS: Feel free to star this repo!
+[PS: Feel free to star this repo!](https://github.com/MattDiMu/google-maps-magnolia/stargazers)
