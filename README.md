@@ -1,11 +1,13 @@
 # google-maps-magnolia
 [![Issue Count](https://codeclimate.com/github/MattDiMu/google-maps-magnolia/badges/issue_count.svg)](https://codeclimate.com/github/MattDiMu/google-maps-magnolia)
 
-Magnolia Light Module for providing a responsive google maps integration.
+Magnolia Light Module for providing 2 google maps components: `google-maps` and `google-directions`
 
 
-![Example of This Module in magnolia edit mode](screenshots/example-editmode.png)
-![Example of This Module in edit dialog](screenshots/example-dialog.png)
+![Example of maps component in edit dialog](screenshots/example-maps-dialog.png)
+![Example of maps component in magnolia edit mode](screenshots/example-maps-editmode.png)
+![Example of directions component in edit dialog](screenshots/example-directions-dialog.png)
+![Example of directions component in magnolia edit mode](screenshots/example-directions-editmode.png)
 
 
 ## Usage
@@ -15,19 +17,21 @@ Magnolia Light Module for providing a responsive google maps integration.
    npm install google-maps-magnolia
    ```
    
-2. Enable the `google-maps`-component in you desired areas like this:
+2. Enable the `google-maps`-component and/or the `google-directions`-component in you desired areas like this:
    ```yaml
    availableComponents:
-       google-maps-magnolia:
+       google-maps:
            id: google-maps-magnolia:components/google-maps
+       google-directions:
+           id: google-maps-magnolia:components/google-directions
    ```
-   **Hint**: If you're having the travel-demo (magnolia sample site), this component will automatically be available in the "Standard" Templates (see screenshots above).
+   **Hint**: If you're having the travel-demo (magnolia sample site), these component will automatically be available in the "Standard" Templates (see screenshots above).
    
 3. Retrieve a (free) Google Maps API Key https://developers.google.com/maps/documentation/embed/guide?hl=en#api_key and set it as parameter `google-maps-magnolia-api-key` in the site definition like this:
-
+   
    ![site definitions parameter config](screenshots/site-definition-parameters.png)
    
-4. (Optionally) customize your component by using your own templateScript. You can either do this by decorating the component or definining your own component, which then uses the `google-maps` dialog. The mentioned dialog may be decorated as well.
+4. (Optionally) customize your components by using your own templateScript. You can either do this by decorating the components or definining your own components, which then uses the `google-maps-magnolia:components/google-maps` or the `google-maps-magnolia:components/google-directions` dialog. The mentioned dialogs may be decorated as well.
    
    ```yaml
    dialog: google-maps-magnolia:components/google-maps
@@ -40,11 +44,15 @@ Magnolia Light Module for providing a responsive google maps integration.
    [#include "/google-maps-magnolia/templates/inc/utils.ftl" /]
    
    <div class="my-custom-wrapper">
-   <h2>Google Maps Title</h2>
-       [@renderGoogleMapsComponent content=content /]
+      <h2>My Custom Title</h2>
+      <p>My custom description</p>
+      [@renderGoogleMapsComponent content=content /]
+      [#--
+        Alternatively use [@renderGoogleDirectionsComponent content=content /]
+      --]
    </div>
    ```
-
+   
 ## Features
 Offers an editor-friendly way to integrate Google Maps into Magnolia Sites:
 * Name and Address Search
@@ -52,6 +60,9 @@ Offers an editor-friendly way to integrate Google Maps into Magnolia Sites:
 * Custom Zoom Level
 * Interface Language (with all language codes currently supported by google)
 * Offers a responsive Mode, where Google Maps retains a predefined aspect ratio, no matter the screen size.
+* Directions including travel data
+* Routes to avoid (tolls, ferrys, highways)
+* custom distance units (km vs miles)
 
 
 ## Information on Magnolia CMS
